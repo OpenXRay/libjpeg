@@ -25,8 +25,6 @@
  * or vice versa.  This is called defining or undefining that symbol.
  */
 
-#define _CRT_SECURE_NO_WARNINGS
-
 /* First we must see if your system has the include files we need.
  * We start out with the assumption that your system has all the ANSI-standard
  * include files.  If you get any error trying to include one of these files,
