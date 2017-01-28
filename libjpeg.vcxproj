@@ -67,11 +67,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="ansi2knr.c" />
-    <ClCompile Include="cdjpeg.c" />
-    <ClCompile Include="cjpeg.c" />
-    <ClCompile Include="ckconfig.c" />
-    <ClCompile Include="djpeg.c" />
+    <ClInclude Include="jconfig.h" />
+    <ClInclude Include="jdct.h" />
+    <ClInclude Include="jerror.h" />
+    <ClInclude Include="jinclude.h" />
+    <ClInclude Include="jmemsys.h" />
+    <ClInclude Include="jmorecfg.h" />
+    <ClInclude Include="jpegint.h" />
+    <ClInclude Include="jpeglib.h" />
+    <ClInclude Include="jversion.h" />
+  </ItemGroup>
+  <ItemGroup>
     <ClCompile Include="jcapimin.c" />
     <ClCompile Include="jcapistd.c" />
     <ClCompile Include="jccoefct.c" />
@@ -113,45 +119,11 @@
     <ClCompile Include="jidctfst.c" />
     <ClCompile Include="jidctint.c" />
     <ClCompile Include="jidctred.c" />
-    <ClCompile Include="jmemansi.c" />
     <ClCompile Include="jmemmgr.c" />
-    <ClCompile Include="jmemname.c" />
     <ClCompile Include="jmemnobs.c" />
-    <ClCompile Include="jpegtran.c" />
     <ClCompile Include="jquant1.c" />
     <ClCompile Include="jquant2.c" />
     <ClCompile Include="jutils.c" />
-    <ClCompile Include="rdbmp.c" />
-    <ClCompile Include="rdcolmap.c" />
-    <ClCompile Include="rdgif.c" />
-    <ClCompile Include="rdjpgcom.c" />
-    <ClCompile Include="rdppm.c" />
-    <ClCompile Include="rdrle.c" />
-    <ClCompile Include="rdswitch.c" />
-    <ClCompile Include="rdtarga.c" />
-    <ClCompile Include="transupp.c" />
-    <ClCompile Include="wrbmp.c" />
-    <ClCompile Include="wrgif.c" />
-    <ClCompile Include="wrjpgcom.c" />
-    <ClCompile Include="wrppm.c" />
-    <ClCompile Include="wrrle.c" />
-    <ClCompile Include="wrtarga.c" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="cderror.h" />
-    <ClInclude Include="cdjpeg.h" />
-    <ClInclude Include="jchuff.h" />
-    <ClInclude Include="jconfig.h" />
-    <ClInclude Include="jdct.h" />
-    <ClInclude Include="jdhuff.h" />
-    <ClInclude Include="jerror.h" />
-    <ClInclude Include="jinclude.h" />
-    <ClInclude Include="jmemsys.h" />
-    <ClInclude Include="jmorecfg.h" />
-    <ClInclude Include="jpegint.h" />
-    <ClInclude Include="jpeglib.h" />
-    <ClInclude Include="jversion.h" />
-    <ClInclude Include="transupp.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
